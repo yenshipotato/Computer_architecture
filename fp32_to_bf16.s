@@ -32,4 +32,4 @@ cond_neq:
    or t3, t3, t1             # Perform bitwise OR between t3 and t1, store in t3
 
 final:
-   nop                       # No operation (end of function)
+   mv a0, t3
